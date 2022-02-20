@@ -1,0 +1,78 @@
+body {
+  text-align: center;
+  background-color: pink;
+  max-width: 1220px;
+  margin: 0px auto;
+  width:100%;
+
+}
+
+.pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color .3s;
+  font-family: cursive;
+}
+
+.pagination a.active {
+  background-color: dodgerblue;
+  color: white;
+}
+.pagination a:hover:not(.active) {background-color: #ddd;}
+
+
+h1 {
+  font-size: 5rem;
+  color: #DBEDF3;
+  font-family: "Arial", cursive;
+  text-shadow: 3px 0 #DA0463;
+
+
+}
+
+footer {
+  color: #DBEDF3;
+  font-family: sans-serif;
+}
+
+.set {
+  margin: 10% auto;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.pressed {
+  box-shadow: 0 3px 4px 0 #DBEDF3;
+  opacity: 0.5;
+}
+
+.red {
+  color: red;
+}
+
+.pager{
+  font-family: arial;
+}
+
+.drum {
+  outline: none;
+  border: 10px solid #404B69;
+  font-size: 5rem;
+  font-family: 'Arvo', cursive;
+  line-height: 2;
+  font-weight: 900;
+  color: Lightblue;
+  text-shadow: 3px 0 #DBEDF3;
+  border-radius: 15px;
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  margin: 10px;
+  background-color: white;
+}

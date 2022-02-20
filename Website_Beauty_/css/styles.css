@@ -1,0 +1,331 @@
+body{
+  width:100%;
+  background-color: pink;
+  font-family: Montserrat;
+  max-width: 1230px;
+  margin: 0px auto;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  background-color: LightBlue;
+}
+
+.title {
+  color: grey;
+  font-size: 18px;
+}
+
+
+a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px 16px;
+
+}
+.breadcrumb{
+  margin-left: -36px;
+  max-width: 1210px;
+
+}
+ul.breadcrumb {
+  padding: 10px 16px;
+  list-style: none;
+  background-color: #eee;
+}
+
+ul.breadcrumb li {
+  display: inline;
+  font-size: 18px;
+}
+
+ul.breadcrumb li+li:before {
+  padding: 8px;
+  color: black;
+  content: "/\00a0";
+}
+
+ul.breadcrumb li a {
+  color: #0275d8;
+  text-decoration: none;
+}
+
+ul.breadcrumb li a:hover {
+  color: #01447e;
+  text-decoration: underline;
+}
+
+.pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color .3s;
+  font-family: cursive;
+}
+
+.pagination a.active {
+  background-color: dodgerblue;
+  color: white;
+}
+.pagination a:hover:not(.active) {background-color: #ddd;}
+
+
+.center-img{
+  margin: 0 auto;
+  max-width: 30%;
+  height: auto;
+  display: block;
+}
+
+#title{
+  background-color: Pink;
+  color: #fff;
+}
+
+.aside {
+  text-align: center;
+  background-color: Lightblue;
+  padding: 15px;
+  color: #ffffff;
+  text-align: center;
+  font-size: 14px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+p{
+
+  text-align:center;
+}
+
+#question {
+  font-size: 20px;
+  font-family:Times New Roman;
+
+}
+
+
+#beauty {
+  border: 5px solid black;
+  border-collapse: collapse;
+  width: 100%;
+  font-family:Times New Roman;
+
+}
+#beauty th{
+  text-align: center;
+  background-color: LightCyan;
+  background: Khaki;
+  padding: 5px;
+  border: 5px solid black;
+}
+#beauty td{
+  border: 3px solid black;
+  padding: 5px;
+  colspan: 2 style= background-color:Khaki;
+  background-color:LightCyan;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 16px;
+}
+
+.ft{
+  position: relative;
+  left:40px ;
+  top:50px ;
+}
+
+hr {
+
+  border-bottom: 2px  solid Black ;
+}
+
+
+h1{
+
+  font-family: Montserrat;
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.name{
+  background-color: Lightblue;
+text-align: center;
+  border-color: pink;
+}
+
+h2{
+  font-family: Montserrat;
+  font-weight: bold;
+  font-size: 3 rem;
+}
+
+h3{
+  font-weight: bold;
+}
+
+h4{
+
+  font-size: 30px;
+  text-align:center;
+  padding: 0;
+}
+
+h5{
+  font-size: 30px;
+  font-family:Times Cursive;
+}
+
+h6{
+    font-family: Times New Roman;
+    font-size: 23px;
+}
+
+h7{
+  text-transform:uppercase;
+}
+h8{
+  font-family: Montserrat;
+  font-weight: bold;
+  font-size:1rem;
+  line-height:1.5;
+}
+
+h9{
+  text-align:left;
+}
+
+p{
+  color: #black;
+}
+
+.container-fluid{
+  padding: 7% 15%;
+}
+
+.navbar{
+  padding: 0 0 5rem 0;
+}
+
+.navbar-brand{
+  font-family: Ubuntu;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.nav-item{
+  padding: 0 15px;
+}
+
+.nav-link{
+  font-size:1.2rem;
+}
+
+/*buttons*/
+
+.download-btn{
+  margin: 5% 5% 0 0;
+}
+
+/*Tite image*/
+
+.title-image{
+width: 400px;
+
+}
+
+/*Features*/
+
+#features{
+  padding: 7% 15%;
+  text-align: center;
+  background-color: white;
+}
+.feature-box{
+  pdding: 5%;
+}
+
+.icon{
+  margin-bottom: 1rem;
+  color: LightBlue;
+}
+
+.icon:hover{
+  color: pink;
+}
+
+/*Testimonials section*/
+
+#testimonials{
+  text-align: center;
+  background-color: Lightblue;
+  color: #fff;
+}
+
+.carousel-item{
+  padding: 7% 15%;
+
+}
+.testimonial-image{
+  width: 15%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+/*Press*/
+
+#press{
+background-color: Lightblue;
+text-align: center;
+padding-bottom: 3%;
+}
+
+.press-logo{
+  width: 15%;
+  margin: 10px 10px 20px;
+}
+
+
+
+.jumbotron{
+  color: Pink;
+  text-align: center;
+}
+.previous {
+  color: blue;
+  padding: 50px;
+  font-family: Times New Roman;
+
+}
+
+.pager {
+
+  padding: 20px;
+  text-align: center;
+  font-family: arial;
+  font-size: 1rem;
+  color:black;
+}
+
+.aside{
+  background-color: Lightblue;
+  color: black;
+}
+.next{
+  color: blue;
+  font-family:Times New Roman;
+}
+
+#back{
+  text-align: center;
+  color:red;
+  font-weight: bold;
+  font-size: 30px;
+}
